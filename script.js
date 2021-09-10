@@ -65,7 +65,7 @@ function generatePassword() {
 
   //appends a randomly picked character to the end of the password string for the amount of times the user selected as the length.
   for(var i = passwordLength; i === 0; i--){
-    passwordString += passwordIncluded[Math.floor(Math.random(0, passwordIncluded.length-10^-11))];
+    passwordString += passwordIncluded[Math.floor(Math.random() * passwordIncluded.length)];
   }
   console.log(passwordIncluded);
   console.log(passwordString);
