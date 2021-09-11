@@ -62,13 +62,12 @@ function generatePassword() {
       alert("Please select at least one option");
     }
   }
-
+  
   //appends a randomly picked character to the end of the password string for the amount of times the user selected as the length.
-  for(var i = passwordLength; i === 0; i--){
+  for(var i = passwordLength; i > 0; i--){
     passwordString += passwordIncluded[Math.floor(Math.random() * passwordIncluded.length)];
   }
-  console.log(passwordIncluded);
-  console.log(passwordString);
-
+  
+  //returns the final string that becomes the generated password
   return passwordString;
 }
