@@ -1,6 +1,6 @@
 # Password Generator Implementation
-This is a pretend refactor of a website to implement a password generator that employees can use to generate random passwords. The website can be accessed [here.]{https://zachary-berdell-elliott.github.io/password-generator-refactor/}
-![Picture of the website after password generator is clicked.]{./website-image.png}
+This is a pretend refactor of a website to implement a password generator that employees can use to generate random passwords. The website can be accessed [here.](https://zachary-berdell-elliott.github.io/password-generator-refactor/)
+![Picture of the website after password generator is clicked.](./website-image.png)
 ## Original
 The website had finished html and css. There was some code for taking the value that is returned from a password generation function and printing it out on the screen but this had not yet been written.
 
